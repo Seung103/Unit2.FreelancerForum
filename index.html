@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--added script to link it to the JS file-->
+    <script defer src="index.js"></script>
+    <title>Block 19 Workshop: Freelancer Forum</title>
+  </head>
+  <body>
+    <!--added header to reflect it on the html as header line, just as example showed-->
+    <h1>Freelancer Forum</h1>
+    <!--added "average start price..." line which the amount will change as table get expands-->
+    <p>The average starting price is <span class="average_price">$0</span>.</p>
+    <!--added class for table to tag it on the js file-->
+    <table class="payees">
+      <caption>
+        Available Freelancers
+      </caption>
+      <!--didn't know about thead element, learned about header table and implementing on this assignment-->
+      <thead>
+        <!--<tr> refers to table row, kinda like ul, it seems like it's used in a similar way to list items but in this case it's within a table as table format-->
+        <tr>
+          <!--<th> is for table header, per each columns in the table-->
+          <th>Name</th>
+          <th>Occupation</th>
+          <th>Starting Price</th>
+        </tr>
+      </thead>
+      <!--added table body, body content after the header table-->
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
